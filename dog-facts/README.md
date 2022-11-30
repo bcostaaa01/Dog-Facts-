@@ -37,4 +37,12 @@ npm install
 npm run start
 ```
 
+### Run test suites
+
+In order to run the tests for the project, run the following command:
+
+```
+npm test
+```
+
 Done!🎉
