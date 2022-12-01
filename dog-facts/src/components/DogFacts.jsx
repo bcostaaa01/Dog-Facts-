@@ -47,8 +47,16 @@ export const DogFacts = () => {
         <div
           item={item}
           key={index}
-          style={{ margin: 20 }}
-          className="bg-blue-500 w-full p-4 shadow-md lg:max-w-lg"
+          style={{
+            margin: 20,
+            padding: 20,
+            width: 500,
+            minHeight: 200,
+            display: "grid",
+            gridTemplateRows: "20px 50px 1fr 50px",
+            borderRadius: 10,
+            boxShadow: "0px 6px 10px rgba(0, 0, 0, 0.25)",
+          }}
         >
           <div className="space-y-2">
             <div className="space-y-2">
